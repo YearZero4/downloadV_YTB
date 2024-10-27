@@ -20,13 +20,15 @@ text-align:center;
 padding:5px;
 width: 90%;
 outline: none;
-height:50px;
+height:35px;
+
 }
 .name{
 text-align:center;
 padding:5px;
 width: 60%;
 outline: none;
+height:35px;
 }
 .btn1{
 cursor:pointer;
