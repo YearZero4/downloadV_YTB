@@ -11,6 +11,9 @@ function audio() {
  } else {
  var id = url.split('/').pop();
  }
+ if(name == ''){
+  var name='audio';
+ }
  function tryDownload(itagIndex) {
   if (itagIndex >= itags.length) {
 document.getElementById('status').textContent = 'NO SE PUDO DESCARGAR EL VIDEO CON NINGUN ITAG';
@@ -67,7 +70,9 @@ function video() {
  } else {
  var id = url.split('/').pop();
  }
-
+if(name == ''){
+  var name='video';
+ }
  var link = x + id;
 
  document.getElementById('result').textContent = 'DESCARGANDO VIDEO, POR FAVOR ESPERE...';
