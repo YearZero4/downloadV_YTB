@@ -51,7 +51,8 @@ color:#5aff00;
 width:30%;
 height:35px;
 text-align: center;
-border:none;
+border-color:#5aff00;
+border-radius:6px;
 }
 
 option{
