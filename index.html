@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DESCARGAR VIDEOS DE YOUTUBE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><center>
+<div class="container">
+<h2>DESCARGAR VIDEOS DE YOUTUBE</h2>
+<input class="url" type="text" id="url" placeholder="<URL DEL VIDEO EN YOUTUBE>" autocomplete="off" required><p>
+	<input class="name" type="text" id="name" placeholder="GUARDAR BAJO EL NOMBRE" autocomplete="off" required><p>
+
+
+<label for="mediaSelect"></label>
+<select class="opc" id="mediaSelect">
+<option class="d" value="audio">AUDIO</option>
+<option class="d" value="video">VIDEO</option>
+</select>
+<button class="btn1" id="downloadButton" onclick="download()">DESCARGAR</button>
+
+<div id="progressBar" style="width: 0%; height: 20px; background: green; display: none;"></div>
+<p id="result"></p>
+<p class="st" id="status"></p>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
