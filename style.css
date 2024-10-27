@@ -9,7 +9,7 @@ font-family: Calibri;
 @media screen and (max-width: 800px) {
 .container{
 background-color: rgba(0, 0, 0, 0.3);
-margin-top: 40px;
+margin-top: 60px;
 padding: 20px;
 border-radius: 5px;
 width: 90%;
@@ -57,7 +57,7 @@ option{
 background-color: black;
 color:#5aff00;
 width:35%;
-height:30px;
+height:33px;
 }
 
 }
